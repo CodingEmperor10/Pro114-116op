@@ -1,0 +1,26 @@
+h3{
+font-size: 25px !important;
+}
+
+.btn-success:hover{
+background-color: blue;    
+}
+
+.btn-warning:hover{
+background-color: gold;    
+}
+
+.btn-info:hover{
+background-color: crimson;    
+}
+
+canvas{
+animation-name: noice;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes noice{
+from{ box-shadow: 2px 2px 40px red;}
+to{ box-shadow: 2px 2px 40px yellow;}    
+}
